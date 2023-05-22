@@ -1,0 +1,30 @@
+.all{
+    background-color: rgb(0, 0, 0);
+    .h1_1{
+      margin-top: 65px;
+      color: rgba(245, 245, 245, 0.884);
+      margin-bottom: 30px;
+    }
+    .section_div{
+        font-size: 170px;
+        font-weight: 200;
+        color: orange;
+    }
+    .div3{
+        color: rgb(151, 150, 150);
+    }
+    .div4{
+        margin-top: 80px;
+        .btn1{
+            font-size: 27px;
+            background-color: rgba(128, 128, 128, 0.363);
+            color: white;
+            border: 2px solid rgba(128, 128, 128, 0.363);
+            transition: .3s;
+            &:hover{
+                border: 2px solid rgba(255, 166, 0, 0.966);
+                color: orange;
+            }
+        }
+    }
+}
